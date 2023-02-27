@@ -1,0 +1,19 @@
+docker build -t "ID STO DOCKER HUB"/"ONOMA TOU SERVICE" .
+docker run -p "PORT POU THELEIS NA TREKSEIS TO PROJECT":80 "ID STO DOCKER HUB"/"ONOMA TOU SERVICE"
+docker push "ID STO DOCKER HUB"/"ONOMA TOU SERVICE" 
+
+
+πρώτα χτίζουμε τα containers με το docker, τα κάνουμε push στο docker hub και τα τρέχουμε
+τα αρχεια depl κοιτανε στα docker containers και μέσω του node port γίνεται το deploy στο kubernetes 
+Ουσιαστικα κάνει το routing
+
+kubectl apply -f toarxeiomou.yaml
+kubectl get deployments 
+kubectl delete deployments,pods,services
+kubectl rollout restart deployments "onoma"(gia na efarmostoun allages
+#MONO ME TO DELETE DEPLOYMENTS DIGRAFONTAI KAI KLEINOUN TA PODS
+
+Aυτο που προσδίδει το docker με το kubernetes είναι η δυνατότητα της απεξάρτησης ενός project απο το λογισμικό και απο το sdk. Ετσι τα projects γίνονται πιο robust και μπορουνε να τρεξουν σε οποιοδήποτε περιβάλλον αφότου έχουνε μπει σε container.
+
+Δημιουργια ενος αρχειου appsettings.Production.json για την καθοδήγηση των service εντος του kubernetes
+

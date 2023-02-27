@@ -1,0 +1,11 @@
+-Εστω οτι εχουμε δυο services Α και Β
+
+-το A επικοινωνει με το B μέσω httpclient
+
+-φτιαχνουμε δυο διαφορετικα dotnet webapi projects
+
+-τα ονομαζουμε services
+
+-το Α service περιέχει έναν httpclient και μεσω αυτου παιρνει δεδομένα απο το Β
+
+Δημιουργια ενος αρχειου appsettings.Production.json για την καθοδήγηση των service εντος του kubernetes
