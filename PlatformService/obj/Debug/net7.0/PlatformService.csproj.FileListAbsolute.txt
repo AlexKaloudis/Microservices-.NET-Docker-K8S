@@ -78,3 +78,4 @@ C:\Extra learning\Microservices\PlatformService\obj\Debug\net7.0\PlatformService
 C:\Extra learning\Microservices\PlatformService\obj\Debug\net7.0\PlatformService.genruntimeconfig.cache
 C:\Extra learning\Microservices\PlatformService\obj\Debug\net7.0\ref\PlatformService.dll
 C:\Extra learning\Microservices\PlatformService\bin\Debug\net7.0\appsettings.Production.json
+C:\Extra learning\Microservices\PlatformService\bin\Debug\net7.0\RabbitMQ.Client.dll

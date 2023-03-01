@@ -77,3 +77,5 @@ C:\Extra learning\Microservices\CommandsService\obj\Debug\net7.0\refint\Commands
 C:\Extra learning\Microservices\CommandsService\obj\Debug\net7.0\CommandsService.pdb
 C:\Extra learning\Microservices\CommandsService\obj\Debug\net7.0\CommandsService.genruntimeconfig.cache
 C:\Extra learning\Microservices\CommandsService\obj\Debug\net7.0\ref\CommandsService.dll
+C:\Extra learning\Microservices\CommandsService\bin\Debug\net7.0\appsettings.Production.json
+C:\Extra learning\Microservices\CommandsService\bin\Debug\net7.0\RabbitMQ.Client.dll

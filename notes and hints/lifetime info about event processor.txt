@@ -1,0 +1,1 @@
+Επειδη το service που εκτελει καθηκοντα MessageBusClient δεν μπορει να επικονωνησει με scope μικροτερης βαθμιδας απο το δικο τους( δηλαδη singleton), θα πρεπει να δημιουργηθει scope factory εντος του event processor για να γινει dependency injection του repo η του context αφου έχουν lifetime μικρότερης βαθμίδας απο αυτό του singleton.
