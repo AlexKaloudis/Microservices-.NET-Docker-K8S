@@ -31,7 +31,7 @@ namespace CommandsService.Controllers
             return Ok(_mapper.Map<IEnumerable<CommandReadDto>>(commands));
         }
 
-        [HttpGet("{commandId}",Name = "GetCommandsForPlatform")]
+        [HttpGet("{commandId}",Name = "GetCommandForPlatform")]
         public ActionResult<CommandReadDto> GetCommandForPlatform(int commandId,int platformId)
         {
             Console.WriteLine($"--> Hitting GetCommandForPlatform: {platformId} / {commandId}");
@@ -48,23 +48,24 @@ namespace CommandsService.Controllers
         }
 
         [HttpPost]
-        public ActionResult<CommandReadDto> CreateCommandForPlatform(int platformId,CommandCreateDto commandDto)
+        public ActionResult<CommandReadDto> CreateCommandForPlatform(int platformId, CommandCreateDto commandDto)
         {
-            Console.WriteLine($"--> Hitting CreateCommandForPlatform: {platformId} ");
-            if(!_repo.PlatformExists(platformId)){
+             Console.WriteLine($"--> Hit CreateCommandForPlatform: {platformId}");
+
+            if (!_repo.PlatformExists(platformId))
+            {
                 return NotFound();
             }
-            var commandModel =_mapper.Map<Command>(commandDto);
-            _repo.CreateCommand(platformId,commandModel);
+
+            var command = _mapper.Map<Command>(commandDto);
+
+            _repo.CreateCommand(platformId, command);
             _repo.SaveChanges();
 
-            var commandReadDto = _mapper.Map<CommandReadDto>(commandModel);
+            var commandReadDto = _mapper.Map<CommandReadDto>(command);
 
-            return CreatedAtRoute(nameof(CreateCommandForPlatform),
-            new{
-                platformId = platformId,
-                commandId = commandReadDto.Id},
-                commandReadDto);
+            return CreatedAtRoute(nameof(GetCommandForPlatform),
+                new {platformId = platformId, commandId = commandReadDto.Id}, commandReadDto);
         }
     }
 }
