@@ -141,6 +141,22 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Grpc.AspNetCore.Web/2.51.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Grpc.AspNetCore.Web.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Grpc.AspNetCore.Web.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Grpc.Core.Api/2.51.0": {
         "type": "package",
         "dependencies": {
@@ -1615,6 +1631,31 @@
         "lib/netcoreapp3.0/Grpc.AspNetCore.Server.ClientFactory.dll",
         "lib/netcoreapp3.0/Grpc.AspNetCore.Server.ClientFactory.pdb",
         "lib/netcoreapp3.0/Grpc.AspNetCore.Server.ClientFactory.xml",
+        "packageIcon.png"
+      ]
+    },
+    "Grpc.AspNetCore.Web/2.51.0": {
+      "sha512": "CAyTHDYoj6u+2uUaoV7S+kqmBf/Jzvs2j+lxtHG3NH+4Ybk4ZbtH6Mb3DJxKPSSYIxjbntHySiUbuIYAvPcAsw==",
+      "type": "package",
+      "path": "grpc.aspnetcore.web/2.51.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "grpc.aspnetcore.web.2.51.0.nupkg.sha512",
+        "grpc.aspnetcore.web.nuspec",
+        "lib/net5.0/Grpc.AspNetCore.Web.dll",
+        "lib/net5.0/Grpc.AspNetCore.Web.pdb",
+        "lib/net5.0/Grpc.AspNetCore.Web.xml",
+        "lib/net6.0/Grpc.AspNetCore.Web.dll",
+        "lib/net6.0/Grpc.AspNetCore.Web.pdb",
+        "lib/net6.0/Grpc.AspNetCore.Web.xml",
+        "lib/net7.0/Grpc.AspNetCore.Web.dll",
+        "lib/net7.0/Grpc.AspNetCore.Web.pdb",
+        "lib/net7.0/Grpc.AspNetCore.Web.xml",
+        "lib/netcoreapp3.0/Grpc.AspNetCore.Web.dll",
+        "lib/netcoreapp3.0/Grpc.AspNetCore.Web.pdb",
+        "lib/netcoreapp3.0/Grpc.AspNetCore.Web.xml",
         "packageIcon.png"
       ]
     },
@@ -4446,6 +4487,7 @@
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "Grpc.AspNetCore >= 2.51.0",
+      "Grpc.AspNetCore.Web >= 2.51.0",
       "Grpc.Net.Client >= 2.51.0",
       "Grpc.Tools >= 2.51.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.3",
@@ -4501,6 +4543,10 @@
             "version": "[12.0.0, )"
           },
           "Grpc.AspNetCore": {
+            "target": "Package",
+            "version": "[2.51.0, )"
+          },
+          "Grpc.AspNetCore.Web": {
             "target": "Package",
             "version": "[2.51.0, )"
           },

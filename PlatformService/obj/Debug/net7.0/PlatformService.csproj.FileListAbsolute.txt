@@ -86,3 +86,4 @@ C:\Extra learning\Microservices\PlatformService\bin\Debug\net7.0\Grpc.Core.Api.d
 C:\Extra learning\Microservices\PlatformService\bin\Debug\net7.0\Grpc.Net.Client.dll
 C:\Extra learning\Microservices\PlatformService\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
 C:\Extra learning\Microservices\PlatformService\bin\Debug\net7.0\Grpc.Net.Common.dll
+C:\Extra learning\Microservices\PlatformService\bin\Debug\net7.0\Grpc.AspNetCore.Web.dll

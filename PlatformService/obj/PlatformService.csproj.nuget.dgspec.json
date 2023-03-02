@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[2.51.0, )"
             },
+            "Grpc.AspNetCore.Web": {
+              "target": "Package",
+              "version": "[2.51.0, )"
+            },
             "Grpc.Net.Client": {
               "target": "Package",
               "version": "[2.51.0, )"

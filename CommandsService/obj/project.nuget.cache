@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5HlfIbcokwseG1aSY9AktasQR9QiPKmWhOwBj3zKo8EhRKJs79UWU8cnUqveDn8ERM4hpmf3A5z2Odvhkkz/Dw==",
+  "dgSpecHash": "Wr+RDrBI5cGj2zN53x1HJSQwiEiehShCofBEn5uE1a5Sq8d+kG9+QCqpDRntz9Wjync85HQXOfO6cBeNpjjJfQ==",
   "success": true,
   "projectFilePath": "C:\\Extra learning\\Microservices\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,13 @@
     "C:\\Users\\kalou\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\kalou\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kalou\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\kalou\\.nuget\\packages\\google.protobuf\\3.22.0\\google.protobuf.3.22.0.nupkg.sha512",
+    "C:\\Users\\kalou\\.nuget\\packages\\grpc.aspnetcore.web\\2.51.0\\grpc.aspnetcore.web.2.51.0.nupkg.sha512",
+    "C:\\Users\\kalou\\.nuget\\packages\\grpc.core.api\\2.51.0\\grpc.core.api.2.51.0.nupkg.sha512",
+    "C:\\Users\\kalou\\.nuget\\packages\\grpc.net.client\\2.51.0\\grpc.net.client.2.51.0.nupkg.sha512",
+    "C:\\Users\\kalou\\.nuget\\packages\\grpc.net.client.web\\2.51.0\\grpc.net.client.web.2.51.0.nupkg.sha512",
+    "C:\\Users\\kalou\\.nuget\\packages\\grpc.net.common\\2.51.0\\grpc.net.common.2.51.0.nupkg.sha512",
+    "C:\\Users\\kalou\\.nuget\\packages\\grpc.tools\\2.52.0\\grpc.tools.2.52.0.nupkg.sha512",
     "C:\\Users\\kalou\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\kalou\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\kalou\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
